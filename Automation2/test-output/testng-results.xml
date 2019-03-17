@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12514" started-at="2019-03-17T23:36:45Z" finished-at="2019-03-17T23:36:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12514" started-at="2019-03-17T23:36:45Z" finished-at="2019-03-17T23:36:58Z">
+      <class name="Tests.TestFacebook">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="OpenPage" is-config="true" duration-ms="7517" started-at="2019-03-17T17:36:45Z" finished-at="2019-03-17T17:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="ValidatePage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="ValidatePage" duration-ms="2673" started-at="2019-03-17T17:36:53Z" finished-at="2019-03-17T17:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePage -->
+        <test-method status="PASS" signature="ClosePage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="ClosePage" is-config="true" duration-ms="2314" started-at="2019-03-17T17:36:55Z" finished-at="2019-03-17T17:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+      </class> <!-- Tests.TestFacebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
