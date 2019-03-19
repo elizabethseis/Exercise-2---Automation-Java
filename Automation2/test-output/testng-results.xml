@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12514" started-at="2019-03-17T23:36:45Z" finished-at="2019-03-17T23:36:58Z">
+  <suite name="Default suite" duration-ms="11287" started-at="2019-03-19T22:04:10Z" finished-at="2019-03-19T22:04:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12514" started-at="2019-03-17T23:36:45Z" finished-at="2019-03-17T23:36:58Z">
+    <test name="Default test" duration-ms="11287" started-at="2019-03-19T22:04:10Z" finished-at="2019-03-19T22:04:22Z">
       <class name="Tests.TestFacebook">
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="OpenPage" is-config="true" duration-ms="7517" started-at="2019-03-17T17:36:45Z" finished-at="2019-03-17T17:36:53Z">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:Tests.TestFacebook@5f375618]" name="OpenPage" is-config="true" duration-ms="5337" started-at="2019-03-19T16:04:10Z" finished-at="2019-03-19T16:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method status="PASS" signature="ValidatePage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="ValidatePage" duration-ms="2673" started-at="2019-03-17T17:36:53Z" finished-at="2019-03-17T17:36:55Z">
+        <test-method status="PASS" signature="ValidatePage()[pri:0, instance:Tests.TestFacebook@5f375618]" name="ValidatePage" duration-ms="3617" started-at="2019-03-19T16:04:16Z" finished-at="2019-03-19T16:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePage -->
-        <test-method status="PASS" signature="ClosePage()[pri:0, instance:Tests.TestFacebook@5d5eef3d]" name="ClosePage" is-config="true" duration-ms="2314" started-at="2019-03-17T17:36:55Z" finished-at="2019-03-17T17:36:58Z">
+        <test-method status="PASS" signature="ClosePage()[pri:0, instance:Tests.TestFacebook@5f375618]" name="ClosePage" is-config="true" duration-ms="2315" started-at="2019-03-19T16:04:19Z" finished-at="2019-03-19T16:04:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosePage -->
