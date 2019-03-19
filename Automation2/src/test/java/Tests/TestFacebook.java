@@ -49,9 +49,9 @@ public void ValidatePage() {
 	System.out.println('\n'+"Text is displayed as : "+ ValidateText1);
 	WebElement RecoverAccount = driver.findElement(By.xpath("//input[@id='identify_email']"));
 	RecoverAccount.sendKeys("elizabethseis6@hotmail.com");
-	WebElement BtnSearch= driver.findElement(By.xpath("//input[@id='u_0_2']"));
+	WebElement BtnSearch= driver.findElement(By.xpath("//input[@value='Search']"));
 	BtnSearch.click();
-	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Your search did not return any results')]"))).isEnabled();
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Your search did not return any results')]"))).isDisplayed();
 	String ValidateText2 =driver.findElement(By.xpath("//div[contains(text(),'Your search did not return any results')]")).getText();
 	String ExpectedText2 = "Your search did not return any results. Please try again with other information.";
 	Assert.assertEquals(ValidateText2, ExpectedText2);
